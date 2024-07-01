@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.layout {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-memoji {
+  background: url("/memoji11.png"), #cecece;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.response-location {
+  left: calc((100% - 214px) / 2);
+  top: -50px;
+}
+
+.scroller {
+  overflow-y: scroll !important;
+}
+
+.glass {
+  background: rgba(244, 244, 244, 0.25);
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.bg-green-wave {
+  background: url("/green-wave.jpg") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (min-width: 1600px) {
+  .content {
+    width: 80% !important;
+  }
+}
+
+.hover-button-add,
+.hover-button-trash {
+  z-index: 1001;
+}
+
+.button-add {
+  width: 0;
+  background-color: black;
+  color: white;
+  top: 0;
+  right: -115px;
+  position: absolute;
+  height: 50px;
+  z-index: -1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Geçiş animasyonu */
+  opacity: 0;
+}
+
+.button-trash {
+  width: 0;
+  background-color: black;
+  color: white;
+  top: 0;
+  right: -96px;
+  position: absolute;
+  height: 50px;
+  z-index: -1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Geçiş animasyonu */
+  opacity: 0;
+}
+
+.hover-button-add:hover .button-add,
+.hover-button-trash:hover .button-trash {
+  width: fit-content;
+  opacity: 1;
+}
+
+.hover-button-add:not(:hover) .button-add,
+.hover-button-trash:not(:hover) .button-trash {
+  display: none;
+  opacity: 0;
+}
+
+.bg-screen {
+  background: url("/screenshot.png");
+}
+
+.spinner {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.line-like:hover,
+.line-dislike:hover,
+.info-circle:hover {
+  color: gray;
+}
