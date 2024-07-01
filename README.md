@@ -17,7 +17,7 @@ On the backend, I developed a service that operates through Flask API and contai
 
 Finally, with the remaining time, I developed a mobile application using Flutter. This application made the services I developed operational on mobile devices as well, aiming to provide our users with uninterrupted service across all platforms.
 
-The system I developed during this Hackathon stands out for its seamless integration between different technologies and high security standards. For more information or if you have any questions, you can reach me at eecevah@gmail.com.On the backend, I developed a service that operates through Flask API and contains three different tables: 'user', 'session', and 'chat'. I integrated this service with a frontend built on Next.js, and later connected this service to artificial intelligence to make our system more functional. Additionally, I implemented necessary security measures to ensure end-to-end encryption for Flask and the chatbot.
+On the backend, I developed a service that operates through Flask API and contains three different tables: 'user', 'session', and 'chat'. I integrated this service with a frontend built on Next.js, and later connected this service to artificial intelligence to make our system more functional. Additionally, I implemented necessary security measures to ensure end-to-end encryption for Flask and the chatbot.
 
 Finally, with the remaining time, I developed a mobile application using Flutter. This application made the services I developed operational on mobile devices as well, aiming to provide our users with uninterrupted service across all platforms.
 
