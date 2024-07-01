@@ -17,10 +17,6 @@ On the backend, I developed a service that operates through Flask API and contai
 
 Finally, with the remaining time, I developed a mobile application using Flutter. This application made the services I developed operational on mobile devices as well, aiming to provide our users with uninterrupted service across all platforms.
 
-On the backend, I developed a service that operates through Flask API and contains three different tables: 'user', 'session', and 'chat'. I integrated this service with a frontend built on Next.js, and later connected this service to artificial intelligence to make our system more functional. Additionally, I implemented necessary security measures to ensure end-to-end encryption for Flask and the chatbot.
-
-Finally, with the remaining time, I developed a mobile application using Flutter. This application made the services I developed operational on mobile devices as well, aiming to provide our users with uninterrupted service across all platforms.
-
 ![image](https://github.com/Halil3509/Kuika-AI-Hackathon/assets/79845872/e7f7b7d8-afcf-4fb1-9c47-90d885252b20)
 
 For more detailed information or inquiries, feel free to reach out to us via email at eecevah@gmail.com.
