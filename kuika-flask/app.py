@@ -31,7 +31,7 @@ logging.basicConfig(level=logging.INFO)
 
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
-app.config["MONGO_URI"] = "mongodb+srv://mazlum:1973Aysegul@cluster0.4molq.mongodb.net/kuika?retryWrites=true&w=majority"
+app.config["MONGO_URI"] = "."
 mongo = PyMongo(app)
 
 app.config["JWT_SECRET_KEY"] = "your_jwt_secret_key"
